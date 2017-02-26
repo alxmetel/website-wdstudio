@@ -17,11 +17,11 @@
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-	
+	border: 2px solid red;
 }
 body input:required:valid,
 body textarea:required:valid {
-	
+	border: 2px solid green;
 }
 body {
 	font-family: "RobotoRegular", sans-serif;
@@ -153,6 +153,7 @@ section.order {
 	display: block;
 	padding: 10px 50px;
 	text-transform: uppercase;
+	text-align: center;
 }
 .button:hover {
 	background-color: #4feac8;	
@@ -171,13 +172,37 @@ section.order {
 	width: 90%;
 	line-height: 24px;
 	margin: 0 auto 12px;
+	padding: 0 5px;
+	font-size: .8em;
 }
 .pop_form .button {
-	margin: auto;
+	margin: 20px auto;
 }
 .pop_form h3 {
 	margin: 10px auto 15px;
 	text-align: center;
 	font-weight: normal;
 	font-family: "RobotoCondensedBold";
+}
+.blog_item img {
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.blog_item h3 {
+	text-transform: uppercase;
+	font-family: "RobotoCondensedRegular";
+	margin-bottom: 10px;
+}
+.blog_item h3 a {
+	text-decoration: underline;
+}
+.blog_item p {
+	margin-top: 0;
+}
+.right_aside {
+	margin-top: 30px;
+	padding: 15px 20px;
+	border-radius: 5px;
+	background-color: #EEEEEE;
+
 }

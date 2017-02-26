@@ -10,6 +10,7 @@
 	.sell_right .button {
 		margin: 15px auto;
 		float: none;
+		max-width: 200px;
 	}
 	.sell_descr {
 		text-align: center;
